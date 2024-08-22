@@ -5,7 +5,7 @@ import Product from "../screens/Product";
 import LoginForm from "../screens/Forms/LoginForm";
 
 import App from "../App";
-const basename = process.env.NODE_ENV === 'production' ? '/desarrollo-frontend-react' : '/';
+const basename = process.env.NODE_ENV === 'production' ? '/desarrollo-reacjs' : '/';
 
 import Bienvenido from '../screens/Forms/Bienvenido';
 import FrmObjeto from '../screens/Forms/FrmObjeto';
