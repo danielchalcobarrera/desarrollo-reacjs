@@ -1,0 +1,1 @@
+export const SET_OBJETO = 'SET_OBJETO';
