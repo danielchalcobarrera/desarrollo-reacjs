@@ -4,6 +4,7 @@ const useForm = (initialValues) => {
     const [values, setValue] = useState(initialValues);
 
     const handleChange = (event) => {
+        event.preventDefault();
         const { name, value } = event.target;
         setValue(
             {
@@ -12,8 +13,12 @@ const useForm = (initialValues) => {
             }
         );
     }
-    
-    return [values, handleChange];
+
+    const resetForm = (event) => {
+        setValue(initialValues);
+    }
+
+    return [values, handleChange, resetForm];
 }
 
 export default useForm;

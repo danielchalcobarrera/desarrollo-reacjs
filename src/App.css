@@ -63,3 +63,166 @@ a {
 a:hover {
   color: #ffcc00;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+form h5 {
+  text-align: center;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding-right: 10px;
+}
+
+form div label {
+  width: 100px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+form div input {
+  flex: 1;
+  min-width: 200px;
+  width: calc(100% - 120px);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  padding: 8px 40px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/**stilos para modales*/
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.notification-success {
+  background-color: #efd6bd;
+  color: #cc8259;
+  padding: 2rem;
+  border: 1px solid #cc8259;
+  border-radius: 0.5rem;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+/* DCB for alert */
+.notification-alert {
+  background-color: #ea1055;
+  color: #f7f2ef;
+  padding: 2rem;
+  border: 1px solid #221108e9;
+  border-radius: 0.5rem;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+.close-btn-success {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: transparent;
+  border: none;
+  color: #7e4f1a;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.nav-bar-right{
+  margin-left: auto; 
+  color: white;
+  padding-right: 16px; 
+}
+.link-logout{
+  color: rgb(238, 6, 6);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: darkblue;
+ color: white;
+ padding-top: 0.1em;
+}
+ 
+header img {
+  width: 100px;
+  margin-left: 50%;
+  margin-top: 1%;
+  border-radius: 100%;
+}
+
+header h1 {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 2em;
+}
+
+header h4 {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 1em;
+}
+
+h2 {
+  text-align: left;
+  font-family: Verdana;
+  font-size: 1em;
+  border-bottom: 2px solid cadetblue;
+}
+
+section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+article h2 {
+ 
+}
+article{
+  padding: 10px 0 10px 0;
+}
+article ul li {
+  margin-left: 15px;
+}
+article p a {
+  margin-left: 15px;
+  color: #282c34;
+}

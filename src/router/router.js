@@ -9,12 +9,17 @@ const basename = process.env.NODE_ENV === 'production' ? '/desarrollo-reacjs' : 
 
 import Bienvenido from '../screens/Forms/Bienvenido';
 import FrmObjeto from '../screens/Forms/FrmObjeto';
+import LandingPage from '../screens/LandingPage/LandingPage';
 
 const routes = createBrowserRouter([
     {
         path: '/',
         element: <App />,
         children: [
+            {
+                path: '/',
+                element: <LandingPage />,
+            },
             {
                 path: '/default',
                 element: <Default />,
