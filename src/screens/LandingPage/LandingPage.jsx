@@ -8,7 +8,7 @@ const LandingPage = () => {
        <img src={logo} className="App-logo" alt="logo"/>
         */} 
        <h1>Módulo 7: DESARROLLO FRONTEND CON REACTJS</h1>
-       <h4>Alumno: Juan Daniel Chalco Barrera    CI: 3381395</h4>  
+       <h4>Alumno: Juan Daniel Chalco Barrera  (dcb)  CI: 3381395</h4>  
     </header>
     <section>
         <article>
